@@ -1,0 +1,5 @@
+add_executable(connection_riented_client connection_riented_client.cpp)
+target_link_libraries(connection_riented_client  akcp pthread)
+
+add_executable(connection_riented_server connection_riented_server.cpp)
+target_link_libraries(connection_riented_server akcp pthread)

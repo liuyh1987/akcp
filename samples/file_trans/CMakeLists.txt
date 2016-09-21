@@ -1,0 +1,5 @@
+add_executable(file_trans_server file_trans_server.cpp)
+target_link_libraries(file_trans_server akcp pthread)
+
+add_executable(file_trans_client file_trans_client.cpp)
+target_link_libraries(file_trans_client akcp pthread)

@@ -1,0 +1,5 @@
+add_executable(delay_test_server delay_test_server.cpp)
+target_link_libraries(delay_test_server akcp pthread)
+
+add_executable(delay_test_client delay_test_client.cpp)
+target_link_libraries(delay_test_client akcp pthread)
